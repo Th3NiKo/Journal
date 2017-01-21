@@ -1,0 +1,150 @@
+/*
+$fontbase = 16
+$line-height-base = 26
+*/
+
+html {
+
+	font-family: 'PT Serif', serif;
+	color: white;
+}
+
+body {
+
+    background-color: #1c211d;
+
+	
+}
+
+main {
+	max-width: 32rem;
+	margin: 0 auto;
+}
+
+h1 {
+
+	text-align: center;
+	font-size: 	4rem;
+	line-height: 5rem;
+	color: white;
+	transition: 1s font-size;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+p {
+	text-align: center;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	max-width: 32rem;
+}
+textarea {
+	 background-color:#1c211d; 
+	 color:white;
+	 box-sizing: border-box;
+	 max-width: 100%;
+	 line-height: 1rem;
+	 margin-top: 2rem;
+	 padding-top: 1rem;
+	 font-size: 1rem;
+	 border-style: dotted;
+}
+#text-input {
+	margin: 1rem;
+	text-align: justify;
+	height: auto;
+	display: table-cell;
+	width: calc(100% - 24rem);
+}
+
+li {
+	list-style-type: none;
+}
+
+
+#add-new {
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0.75rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+
+
+}
+
+#add-new:hover {
+
+	background-color: #68c454;
+	transition: all 1s;
+}
+
+#delete-all {
+
+    background-color: #f44336; /* red */
+    border: none;
+    color: white;
+     padding: 0.75rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+
+#delete-all:hover {
+
+	background-color: #fa6d63;
+	transition: all 1s;
+
+
+}
+#inputs {
+	text-align: center;
+	margin-bottom: 4rem;
+
+
+}
+
+.delete {
+	
+	line-height: 1rem;
+	text-align: right;
+	margin-bottom: 3rem;
+}
+
+div p {
+
+	text-align: justify;
+}
+
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+#grad {
+    background: #1c211d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#282e29, #1c211d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#282e29, #1c211d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#282e29, #1c211d);; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#282e29, #1c211d); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
